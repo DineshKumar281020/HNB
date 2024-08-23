@@ -1,0 +1,52 @@
+body{
+  background-color: aliceblue;
+}
+
+/*NAVBAR*/
+.navbar-nav .nav-link {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: #ff6347; /* Custom hover color */
+}
+
+/*BANNER*/
+.ban{
+  width: 100%;
+  margin-top: 40px;
+}
+
+/*ABOUT US*/
+#about-us {
+  background-color:#caedd3;
+  color: #343a40;
+  padding: 50px 0;
+  margin-top: 40px;
+}
+
+#about-us h2 {
+  color: #08631f;
+  font-weight: 700;
+}
+
+#about-us  {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid{
+  width: 415px;
+    height: 325px;
+}
+
+.lead{
+  font-family:"Inter", sans-serif;
+  padding-top: 20px;
+}
+
+.head{
+  padding-top: 10px;
+}
