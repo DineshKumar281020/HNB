@@ -1,90 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="assets/logo.png" alt="" >
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#overview">Overview</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#what-we-do">What We Do</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#products">Products</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#applications">Applications</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#quality">Quality</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#our-clients">Our Clients</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">HNM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">OVERVIEW </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">WHAT WE DO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">APPLICATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">QUALITY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">OUR CLIENTS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--BANNER-->
+    
+    <section class="banner d-flex align-items-center justify-content-center text-center">
+        <div class="container">
+            <h1 class="display-4 text-white">Welcome to Our Industry</h1>
+            <p class="lead text-white">We provide top-notch industrial solutions</p>
+            <a href="#" class="btn btn-primary btn-lg">Explore Services</a>
+        </div>
+    </section>
+
+    <!--OVERVIEW-->
+
+    
+    <div class="container overview">
+        <h3 class="do">OVERVIEW</h3>
+        <div class="row overview-para">
+            <div class="col-md-6">
+                <p>HNM was established in the year 1988 to cater to the pump, valve and other General Engineering Industries located abundantly across Coimbatore, a well recognized and respected Industrial destination in India.</p>
+                <p>Since 1988, HNM has developed personnel, facilities, materials, and processes required to recognize and meet its valuable customer’s rubber needs.</p>
+                <p>Our ISO 9001:2015 certified manufacturing facility, occupying 4000square feet of floor space, backed by 30 skilled and committed workforce dedicated to giving their best to the industry requirements.</p>
+                <p>With a unique combination of Knowledge, experience, State of –the-art equipments and quality manufacturing systems, HNM manufacture wide range of Rubber Products and Rubber to metal bonded products exactly as per the requirements of its clients.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/overview.jpg" alt="OVERVIEW" class="overview-card">
+            </div>
         </div>
     </div>
-</nav>
 
-<!--BANNER-->
+    <!--WHAT WE DO-->
 
-<div class="owl-carousel">
-    <div class="item"><img src="assets/slide1.avif" alt="" class="it"></div>
-    <div class="item"><img src="assets/slide1.avif" alt="" class="it"></div>
-    <div class="item"><img src="assets/slide1.avif" alt="" class="it"></div>
-</div>
+    
+    
 
-<!--ABOUT US-->
-
-<section id="about-us">
-  <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-            <h2 class="display-4 head">OVERVIEW</h2>
-            <img src="assets/imag2.jpg" alt="About Us Image" class="img-fluid rounded">
+    <div class="container mt-5">
+        <h3 class="do">WHAT WE DO</h3>
+        <div class="row what-para">
+            <div class="col-md-12">
+                <p>The  products we manufacture, ranging from 0.5 Gms to 2000 Gms,  are used for a wide variety of applications such as  Pump & Valve, Automobile, Railways, Aerospace, Defense, Industrial Automation, White Goods, Mining, Process Industries,  Material handling, General Engineering, Hardware, Building & Construction, Plumbing, etc.</p>
+            </div>
         </div>
-        <div class="col-md-6">
-            <p class="lead a">At HNM Rubber, we are committed to providing top-quality rubber products to meet the diverse needs of our customers. Our expertise and experience in the rubber industry ensure that we deliver products that are both reliable and innovative.</p>
-            <p class="lead">Founded in [Year], we have built a reputation for excellence by focusing on quality, customer satisfaction, and continuous improvement. Our state-of-the-art facilities and dedicated team work together to create products that exceed industry standards.</p>
-            <p class="lead">Whether you need custom solutions or standard products, we are here to help. Explore our product gallery to see our range of offerings and get in touch with us for more information.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/product1.jpg" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">O Rings</h5>
+                        <p class="card-text">High-quality rubber product for industrial use.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/product2.jpg" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Gaskets</h5>
+                        <p class="card-text">Durable and reliable rubber materials.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/product3.webp" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Washers</h5>
+                        <p class="card-text">Rubber solutions for all industrial needs.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/product4.jpg" class="card-img-top" alt="Product 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Diaphragms</h5>
+                        <p class="card-text">Rubber solutions for all industrial needs.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/product5.jpg" class="card-img-top" alt="Product 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Brushes</h5>
+                        <p class="card-text">Rubber solutions for all industrial needs.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/product6.png" class="card-img-top" alt="Product 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Grommets</h5>
+                        <p class="card-text">Rubber solutions for all industrial needs.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/product7.jpg" class="card-img-top" alt="Product 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Pads</h5>
+                        <p class="card-text">Rubber solutions for all industrial needs.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/product8.webp" class="card-img-top" alt="Product 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Sleeves</h5>
+                        <p class="card-text">Rubber solutions for all industrial needs.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/product9.webp" class="card-img-top" alt="Product 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Grippers</h5>
+                        <p class="card-text">Rubber solutions for all industrial needs.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/product10.jpg" class="card-img-top" alt="Product 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Plugs</h5>
+                        <p class="card-text">Rubber solutions for all industrial needs.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/product11.webp" class="card-img-top" alt="Product 11">
+                    <div class="card-body">
+                        <h5 class="card-title">Rollers</h5>
+                        <p class="card-text">Rubber solutions for all industrial needs.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/product12.jpg" class="card-img-top" alt="Product 12">
+                    <div class="card-body">
+                        <h5 class="card-title">Suction Cups</h5>
+                        <p class="card-text">Rubber solutions for all industrial needs.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/product13.webp" class="card-img-top" alt="Product 13">
+                    <div class="card-body">
+                        <h5 class="card-title">Light Seals</h5>
+                        <p class="card-text">Rubber solutions for all industrial needs.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/product14.jpg" class="card-img-top" alt="Product 14">
+                    <div class="card-body">
+                        <h5 class="card-title">Vibration Damping</h5>
+                        <p class="card-text">Rubber solutions for all industrial needs.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/product15.webp" class="card-img-top" alt="Product 15">
+                    <div class="card-body">
+                        <h5 class="card-title">Rubber to Metal Bonded products</h5>
+                        <p class="card-text">Rubber solutions for all industrial needs.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>The polymers we routinely work with are:<b>Natural Rubber (NR), Styrene Butadiene Rubber (SBR), Neoprene Rubber (CR),  Nitryl Rubber (NBR), EPDM Rubber, Silicone Rubber, VITON Rubber, Poly Urethane Rubber etc.</b></p>
+            </div>
         </div>
     </div>
-</div>
-</section>
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-<script>
-    $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
-            items: 1, // Number of items you want to display
-            loop: true, // Loop the carousel
-            margin: 10, // Margin between items
-            nav: true, // Display navigation arrows
-            dots: true // Display dots navigation
-        });
-    });
-</script>
 
 
+    
 </body>
 </html>

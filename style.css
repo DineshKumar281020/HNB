@@ -1,61 +1,124 @@
+body {
+  background-color: aliceblue;
 
+}
 
 /*NAVBAR*/
-.navbar{
-  background-color: white;
-}
-.navbar-nav .nav-link {
-  font-weight: 500;
-  text-transform: uppercase;
-}
 
-.navbar-nav{
-  column-gap: 40px;
+.navbar {
+  background-color: #FF5733;
 }
-
+.navbar-brand, .navbar-nav .nav-link {
+  color: #FFFFFF;
+}
 .navbar-nav .nav-link:hover {
-  color: #ff6347; /* Custom hover color */
-}
-
-.nav-link{
-  font-size: 18px;
-  text-transform: uppercase;
+  color: black;
 }
 
 /*BANNER*/
-.it{
-  height:750px;
+
+.banner {
+  background-image: url('assets/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  position: relative;
 }
 
-/*ABOUT US*/
-#about-us {
-  color: #343a40;
-  padding: 50px 0;
-  margin-top: 40px;
-}
-
-#about-us h2 {
-  color: #08631f;
-  font-weight: 700;
-}
-
-#about-us  {
-  max-width: 100%;
-  height: auto;
-}
-
-.img-fluid{
+.banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  margin-bottom: 80px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
 }
 
-.lead{
-  font-family:"Inter", sans-serif;
-  padding-top: 20px;
+.banner .container {
+  z-index: 1;
+  position: relative;
 }
 
-
-
-.head{
-  padding-top: 10px;
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
 }
+
+p {
+  font-size: 1.25rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/*OVERVIEW*/
+.overview{
+  background-color: aliceblue;
+  color: black;
+  width: 100%;
+}
+
+.col-md-6 .overview-card{
+  padding: 140px 0 0 50px;
+  width: 90%;
+}
+
+.overview-para{
+  padding-top: 15px;
+}
+
+/*WHAT WE DO*/
+
+.what-para{
+  padding-top: 15px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.do{
+  font-weight: 700;
+  color: white;
+    background-color: #FF5733;
+    text-align: center;
+    margin-top: 40px;
+    width: fit-content;
+    margin: 40px auto 0 auto;
+}
+
+.card-img-top{
+  height: 350px;
+  width: 350px;
+  
+}
+
