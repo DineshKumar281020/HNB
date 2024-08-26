@@ -6,7 +6,7 @@ body {
 /*NAVBAR*/
 
 .navbar {
-  background-color: #FF5733;
+  background-color: #3238a8;
 }
 .navbar-brand, .navbar-nav .nav-link {
   color: #FFFFFF;
@@ -85,7 +85,7 @@ p {
 }
 
 .what-para{
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 .card {
@@ -107,15 +107,15 @@ p {
     border-color: #007bff;
 }
 
-.btn-primary:hover {
+ .btn-primary:hover {
     background-color: #0056b3;
     border-color: #004085;
-}
+} 
 
 .do{
   font-weight: 700;
   color: white;
-    background-color: #FF5733;
+    background-color: #3238a8;
     text-align: center;
     margin-top: 40px;
     width: fit-content;
