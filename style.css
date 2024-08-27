@@ -218,3 +218,85 @@ p {
 
 
 /*NAVBAR media query*/
+
+/* Default style for larger screens */
+#navbarNav{
+  
+  padding: 10px 20px;
+}
+
+#navbarNav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Aligns the menu items to the right */
+}
+
+#navbarNav ul li {
+  margin-left: 20px;
+}
+
+#navbarNav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+#navbarNav ul li a:hover {
+  
+  border-radius: 5px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #navbarNav {
+      padding: 8px 15px;
+  }
+
+  #navbarNav ul {
+      justify-content: space-around; /* Space items evenly */
+  }
+
+  #navbarNav ul li {
+      margin-left: 15px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  #navbarNav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #navbarNav ul li {
+      margin-left: 0;
+      margin-bottom: 10px;
+  }
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media only screen and (max-width: 575px) {
+  #navbarNav {
+      padding: 5px 10px;
+  }
+
+  #navbarNav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #navbarNav ul li {
+      margin-left: 0;
+      margin-bottom: 8px;
+  }
+
+  #navbarNav ul li a {
+      padding: 8px 15px;
+      font-size: 14px; /* Smaller text for mobile */
+  }
+}
+
