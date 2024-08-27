@@ -81,25 +81,140 @@
   width: 100%;
 }
 
+
 /*BANNER*/
 
-.carousel-caption {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.banner {
+  background-image: url('assets/banner.png'); /* Use the actual URL of the banner image */
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
   color: #fff;
-   background-color: rgba(0, 0, 0, 0.5); 
-  padding: 10px;
-  border-radius: 10px;
-  width: 70%;
-    height: 30%;
-    margin: 0 36%;
-}
-.item img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
+.banner h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.banner p {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.banner .btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: 1px solid ;
+  background-color: #000;
+  color: #FFFFFF;
+}
+
+.banner .btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+
+/* Default styles for larger screens */
+.navbar {
+  background-color: #4B5A3D;
+  padding: 20px;
+}
+
+.navbar img {
+  width: 200px;
+  height: auto;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+      padding: 15px;
+  }
+
+  .navbar img {
+      width: 180px;
+  }
+
+  .header {
+      height: auto;
+  }
+
+  h1 {
+      font-size: 2.5rem;
+  }
+
+  p {
+      font-size: 1.3rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .navbar {
+      padding: 10px;
+  }
+
+  .navbar img {
+      width: 160px;
+  }
+
+  .header {
+      height: auto;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+
+  p {
+      font-size: 1.2rem;
+  }
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media only screen and (max-width: 575px) {
+  .navbar {
+      padding: 8px;
+  }
+
+  .navbar img {
+      width: 140px;
+  }
+
+  .header {
+      height: auto;
+  }
+
+  h1 {
+      font-size: 1.8rem;
+      text-align: center;
+  }
+
+  p {
+      font-size: 1rem;
+      text-align: center;
+  }
+}
+
+
+/*NAVBAR media query*/
