@@ -7,15 +7,15 @@
     <title>HNB</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body id="bg">
-    <div class="page-wraper">
-        <div id="loading-icon-bx"></div>
+    <!-- <div class="page-wraper"> -->
+         <div id="loading-icon-bx"></div>
         <!-- Header Top ==== -->
         <header class="header rs-nav">
 			<div class="top-bar">
@@ -23,16 +23,9 @@
 					<div class="row d-flex justify-content-between">
 						<div class="topbar-left">
 							<ul>
-								<li><a href="javascript:;"><i class="la la-phone"></i>Call Us (+00) 286 8591</a></li>
-								<li><a href="javascript:;"><i class="la la-clock"></i>Mon to Fri - 9:00am - 6:00pm</a></li>
-								<li><a href="javascript:;"><i class="las la-envelope-open"></i>Support@website.com</a></li>
-							</ul>
-						</div>
-						<div class="topbar-right">
-							<ul>
-								<li><a href="company-history.html">History</a></li>
-								<li><a href="blog-standard.html">News</a></li>
-								<li><a href="contact-1.html">Contact Us</a></li>
+								<li><a href="javascript:;"><i class="fa-solid fa-phone"></i>Call Us +91-9244402364</a></li>
+								<li><a href="javascript:;"><i class="fa-solid fa-house"></i>Somayampalayam Post, kanuvai, Coimbatore-641108</a></li>
+								<li><a href="javascript:;"><i class="fa-solid fa-at"></i>www.hnmrubber.com</a></li>
 							</ul>
 						</div>
 					</div>
@@ -40,7 +33,7 @@
 			</div>
             <div class="sticky-header navbar-expand-lg">
                 <div class="menu-bar clearfix">
-                    <div class="container clearfix">
+                    <div class="container-clearfix">
                         
 
 
@@ -54,6 +47,9 @@
                                 
                                 <div class="collapse navbar-collapse" id="navbarNav">
                                     <ul class="navbar-nav ms-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">HOME </a>
+                                        </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">OVERVIEW </a>
                                         </li>
@@ -82,8 +78,55 @@
                         
         </header>
 
+        <!--BANNER-->
+
+        <div class="container my-5">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="assets/banner1.jpg" alt="Image 1" class="img-fluid">
+                    <div class="carousel-caption">
+                        <p>SECURE SEALS, CONFIDENT TESTS</p>
+                        <h3>Test Plugs into Perfection for Leak-proof pipelines!</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/banner2.jpg" alt="Image 2" class="img-fluid">
+                    <div class="carousel-caption">
+                        <p>RUBBER RINGS WHERE SEALING MEETS EXCELLENCE IN PIPE PERFORMANCE</p>
+                        <h3>Connecting Confidence Where Every Seat Matters.</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/banner3.jpg" alt="Image 3" class="img-fluid">
+                    <div class="carousel-caption">
+                        <p>AUTOMOTIVE PARTS YOUR SATISFACTION</p>
+                        <h3>Automative Parts Perfection Satisfaction Guaranteed</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
         
-    </div>
+
+        
+    <!-- </div> -->
+
+    <!-- jQuery (required by Owl Carousel) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            //autoplay: true,
+            // autoplayTimeout: 3000,
+            items: 1
+        });
+    });
+</script>
 
 
 </body>
