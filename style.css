@@ -116,8 +116,8 @@
   display: inline-block;
 }
 
- .btn:hover{
-  background-color: #fff;
+ .hnm-btn:hover{
+  background-color:  greenyellow;
   color: #000;
 }
 
@@ -251,7 +251,7 @@ p {
 }
 
 #navbarNav ul li a:hover {
-  
+  color: #000;
   border-radius: 5px;
 }
 
@@ -304,6 +304,9 @@ p {
       font-size: 14px; /* Smaller text for mobile */
   }
 }
+
+/**/
+
 .banner 
 {
   position:relative;
